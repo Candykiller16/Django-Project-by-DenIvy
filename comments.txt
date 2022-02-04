@@ -5,3 +5,12 @@
 2. Second commit
     1) Theme installtion started
     2) Updated form for add project view
+
+3. Third commit
+    1) Added new app "users" for users
+    2) Created model "Profile" in app users with one-to-one relationships with django model User
+    3) Migrations were performed
+    4) Added "owner" for projects/models/Project with one-to-many relationships with users/models/Profile
+    5) Added new model for prifile's skills called Skill with one-to-many relationships
+    6) Created/Update user-profile.html to show all information about user
+    7) Added django signals for Create/Update/Delete users and their profiles(profile automatically generates after creation of user)
