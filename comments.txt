@@ -26,3 +26,7 @@
 
     7) Started to customize user account
 
+5. Fifth commit
+    1) Added and customized profile-edit form
+    2) CRUD functionality for skills
+
