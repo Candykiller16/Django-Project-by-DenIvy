@@ -14,3 +14,15 @@
     5) Added new model for prifile's skills called Skill with one-to-many relationships
     6) Created/Update user-profile.html to show all information about user
     7) Added django signals for Create/Update/Delete users and their profiles(profile automatically generates after creation of user)
+
+4. Fourth commit
+    1) Added login/logout functionality
+    2) Added 2 views for login/logout functionality
+    3) Updated projects/views to not let not authenticated user CDU projects and to not show them this possibility
+    4) Added messages for incorrect username and/or password
+
+    5) Made user registration view/template
+    6) customized UserCretionForm as CustomUserCreationForm
+
+    7) Started to customize user account
+
